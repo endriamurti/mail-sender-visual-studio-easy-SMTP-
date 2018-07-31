@@ -9,7 +9,7 @@ Public Class Form1
             Dim e_mail As New MailMessage
 
             Smtp_Server.UseDefaultCredentials = False
-            Smtp_Server.Credentials = New Net.NetworkCredential("soutcoastmultirotor@gmail.com", "endre123/?")
+            Smtp_Server.Credentials = New Net.NetworkCredential("yours@gmail.com", "yourpass")
             Smtp_Server.Port = 587
             Smtp_Server.EnableSsl = True
             Smtp_Server.Host = "smtp.gmail.com"
